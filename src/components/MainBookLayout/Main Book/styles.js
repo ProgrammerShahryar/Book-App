@@ -1,0 +1,87 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  PopupBody: {
+    backgroundColor: '#FFFFFF',
+    marginHorizontal: 20,
+    marginBottom: 10,
+    marginTop: 10,
+    padding: 12,
+    borderRadius: 10,
+    width: 350,
+    height: 120,
+    elevation: 9,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 15,
+    },
+    shadowOpacity: 0.6,
+    shadowRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sPopup: {
+    width: '80%',
+    maxHeight: '70%',
+    alignSelf: 'center',
+    marginTop: '70%',
+    backgroundColor: '#f5f5f5',
+    paddingBottom: 20,
+    borderRadius: 20,
+    elevation: 10,
+  },
+  switchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 10,
+  },
+  Logo: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 20,
+  },
+  sHeading: {
+    fontSize: 38,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    textAlign: 'center',
+    color: '#8F3441', 
+    textShadowColor: 'rgba(255, 255, 255, 0.5)', 
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+    backgroundColor: '#f5f5f5',
+    paddingVertical: 8, 
+    paddingHorizontal: 12,
+    borderRadius: 0,
+    elevation: 2, 
+  },
+  sBody: {
+    fontSize: 25,
+    marginBottom: 5,
+    fontWeight: 'bold',
+    color: '#E67E8E',
+    textAlign: 'center',
+  },
+  buttonArea: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 20,
+  },
+  sClicker: {
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    backgroundColor: '#FFB6C1',
+    borderRadius: 10,
+    marginHorizontal: 10,
+    elevation: 8,
+  },
+  sButtonBody: {
+    fontWeight: 'bold',
+    color: '#8F3441',
+    fontSize: 18,
+  },
+});
+
+export default styles;
